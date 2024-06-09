@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="SeaCare"
-        android:id="@+id/home"></item>
-<!--        android:icon="@drawable/"></item>-->
+    <item android:title="home"
+        android:id="@+id/home"
+        android:icon="@drawable/house_solid">
+    </item>
     <item android:title="Spesies"
-        android:id="@+id/spesies"></item>
-<!--        android:icon="@drawable/"></item>-->
+        android:id="@+id/spesies"
+        android:icon="@drawable/spesies_icon">
+
+    </item>
+
     <item android:title="Info"
-        android:id="@+id/info"></item>
-<!--        android:icon="@drawable/"></item>-->
+        android:id="@+id/info"
+        android:icon="@drawable/circle_info_solid">
+
+    </item>
+
 </menu>

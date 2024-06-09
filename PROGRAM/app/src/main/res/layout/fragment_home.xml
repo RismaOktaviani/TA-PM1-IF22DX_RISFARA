@@ -8,9 +8,23 @@
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="414dp"
+            android:layout_height="84dp"
+            android:text="Informasi Laut di Indonesia"
+            android:textAlignment="textEnd"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_extrabold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <ImageView
             android:id="@+id/imageView"

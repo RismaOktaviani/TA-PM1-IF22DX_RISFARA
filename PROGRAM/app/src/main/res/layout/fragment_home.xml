@@ -12,11 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="424dp"
+            android:layout_height="295dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/laut_indonesia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/textView"
             style="@style/TitleFragment"
+            android:layout_width="425dp"
+            android:layout_height="83dp"
             android:text="@string/head_title_home"
+            android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

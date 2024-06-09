@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.SeaCare" parent="Base.Theme.SeaCare" />
+
+    <style name="TitleFragment">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/title_color</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

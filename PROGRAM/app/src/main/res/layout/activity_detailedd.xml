@@ -83,6 +83,24 @@
         android:id="@+id/descDugong"
         android:textSize="8sp"/>
 
+<!--upaya dilindungi -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upaya yang dilakukan"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/Base"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UpayaDugong"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/UpayaDugong"
+        android:textSize="8sp"/>
 
 </LinearLayout>

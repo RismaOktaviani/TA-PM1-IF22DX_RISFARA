@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    warna apk -->
+    <color name="Base">#00B8B3</color>
+
 </resources>

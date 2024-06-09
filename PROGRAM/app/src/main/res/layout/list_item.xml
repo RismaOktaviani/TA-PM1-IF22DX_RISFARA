@@ -24,7 +24,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            />
+            app:shapeAppearanceOverlay="@style/roundImage"/>
 
         <TextView
             android:layout_width="120dp"
@@ -36,7 +36,17 @@
             android:layout_marginTop="25dp"
             android:layout_marginStart="100dp"
             android:layout_toEndOf="@id/listImage"/>
-
-
     </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Listview"
+        android:scrollbars="vertical"
+        android:layout_marginTop="12dp"
+        tools:listitem="@layout/list_item"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+
 </androidx.cardview.widget.CardView>

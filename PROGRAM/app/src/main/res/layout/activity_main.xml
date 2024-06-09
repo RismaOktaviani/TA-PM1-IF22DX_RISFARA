@@ -16,4 +16,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/ListTime"
+        android:text="time"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="300dp"
+        android:layout_toEndOf="@+id/ListName" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

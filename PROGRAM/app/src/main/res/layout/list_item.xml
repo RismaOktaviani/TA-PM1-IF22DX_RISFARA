@@ -30,23 +30,27 @@
             android:layout_width="120dp"
             android:layout_height="30dp"
             android:id="@+id/ListName"
-            android:text="@string/Dugongdetail"
+            android:text="Name"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:layout_marginTop="25dp"
             android:layout_marginStart="100dp"
             android:layout_toEndOf="@id/listImage"/>
-    </RelativeLayout>
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/Listview"
-        android:scrollbars="vertical"
-        android:layout_marginTop="12dp"
-        tools:listitem="@layout/list_item"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="10.0sp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:id="@+id/ListTime"
+            android:text="time"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="300dp"
+            android:layout_toEndOf="@id/ListName" />
+
+
+    </RelativeLayout>
 
 
 </androidx.cardview.widget.CardView>

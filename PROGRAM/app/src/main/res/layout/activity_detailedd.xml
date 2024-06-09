@@ -20,6 +20,7 @@
         android:textStyle="bold"
         android:layout_gravity="center"/>
 
+<!--    frame atas untuk foto -->
     <androidx.cardview.widget.CardView
         android:layout_width="380dp"
         android:layout_height="200dp"
@@ -28,6 +29,7 @@
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp">
 
+<!--        foto -->
         <ImageView
 
             android:id="@+id/detailImage"
@@ -39,5 +41,26 @@
             android:src="@drawable/DUGONG2"/>
 
     </androidx.cardview.widget.CardView>
+
+<!--  judul untuk pengertian  -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dugong"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/Base"/>
+
+<!-- pengertian dugong -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Dugongdetail"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/detailDugong"
+        android:textSize="8sp"/>
 
 </LinearLayout>

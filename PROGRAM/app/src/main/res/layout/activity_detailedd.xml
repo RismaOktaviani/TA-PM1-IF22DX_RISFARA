@@ -63,4 +63,26 @@
         android:id="@+id/detailDugong"
         android:textSize="8sp"/>
 
+<!--judul dan penyebab-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penyebab dilindungi"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/Base"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Dugongdesc"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/descDugong"
+        android:textSize="8sp"/>
+
+
+
 </LinearLayout>

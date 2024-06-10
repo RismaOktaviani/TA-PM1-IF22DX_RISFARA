@@ -47,6 +47,7 @@
             android:layout_height="295dp"
             android:layout_marginTop="2dp"
             android:src="@drawable/laut_indonesia"
+            app:circularflow_radiusInDP="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />

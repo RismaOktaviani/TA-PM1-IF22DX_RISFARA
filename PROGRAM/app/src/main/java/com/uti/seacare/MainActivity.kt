@@ -1,65 +1,56 @@
 package com.uti.seacare
 
-import android.app.Activity
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityMainBinding
-
-    interface ActivityMainBinding {
-
-    }
-
-    private lateinit var ListAdapter: ListAdapter
-    private lateinit var ListData: ListData
-    var dataArray = ArrayList<ListData?>()
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var dataList: ArrayList<DataClass>
+    lateinit var imageList: Array<Int>
+    lateinit var titleList: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val nameList = arrayOf("Dugong", "Penyu", "Pari", "paus", "Hiu", "Lumba")
-        val timelist = arrayOf("Dugong1", "Penyu1", "Pari1", "paus1", "Hiu1", "Lumba1")
-
-        val imageList = intArrayOf(
-            R.drawable.paus,
+        imageList = arrayOf(
             R.drawable.dugong,
             R.drawable.lumba,
+            R.drawable.paus,
             R.drawable.penyu,
-            R.drawable.pauss,
-            R.drawable.lumba
+            R.drawable.pauss
         )
 
-        val ingredientList = intArrayOf(
-            R.string.pausdetail,
-            R.string.Dugongdetail,
-            R.string.Lumbadetail,
-            R.string.penyudetail,
-            R.string.Hiugdetail,
-            R.string.parimantadetail
+        titleList = arrayOf(
+            "Tentang Dugong",
+            "Tentang Lumba",
+            "Tentang Paus",
+            "Tentang Penyu",
+            "Tentang Hiu Paus"
         )
 
-        val descList = intArrayOf(
-            R.string.pausgdesc,
-            R.string.Dugongdesc,
-            R.string.Lumbadesc,
-            R.string.penyudesc,
-            R.string.Hiudesc,
-            R.string.parimantadesc
-        )
+        recyclerView = findViewById(R.id.recyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.setHasFixedSize(true)
 
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+        dataList = arrayListOf<DataClass>()
+        getData()
     }
+
+    private fun getData() {
+        for (i in imageList.indices) {
+            val dataClass = DataClass(imageList[i], titleList[i])
+            dataList.add(dataClass)
+        }
+        recyclerView.adapter = AdapterClass(dataList)
+
+
+    }
+
 }

@@ -47,6 +47,7 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
 
+
                     <ImageView
                         android:id="@+id/news_image_1"
                         android:layout_width="130dp"
@@ -66,6 +67,7 @@
                             android:id="@+id/news_heading_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
                             android:text="Potensi Sumber Daya Kelautan Indonesia"
                             android:textSize="16sp"
                             android:paddingRight="10dp"
@@ -75,7 +77,7 @@
                             android:id="@+id/news_body_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="12dp"
                             android:paddingRight="10dp"
                             android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar, termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
                             android:textSize="14sp" />
@@ -96,7 +98,7 @@
                         android:layout_height="130dp"
                         android:layout_marginTop="16dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/potensi_sumber_daya_kelautan_indonesia" />
+                        android:src="@drawable/oip" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -109,7 +111,7 @@
                             android:id="@+id/news_heading_2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Potensi Sumber Daya Kelautan Indonesia"
+                            android:text="Informasi laut yang perlu dilindungi"
                             android:textSize="16sp"
                             android:paddingRight="10dp"
                             android:textStyle="bold" />

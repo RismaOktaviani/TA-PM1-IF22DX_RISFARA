@@ -7,10 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:layout_marginTop="24dp"
+        android:text="Spesies yang dilindungi"
+        android:textColor="@color/Base"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <androidx.appcompat.widget.SearchView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
         android:id="@+id/search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

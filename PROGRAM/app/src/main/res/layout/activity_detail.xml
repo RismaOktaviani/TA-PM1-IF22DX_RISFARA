@@ -43,7 +43,7 @@
         android:text="@string/Dugong"
         android:textColor="@color/black"
         android:textAlignment="viewStart"
-        android:textSize="10sp"
+        android:textSize="12sp"
         android:padding="12dp"
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"

@@ -31,7 +31,11 @@ class MainActivity : AppCompatActivity() {
             R.drawable.paus,
             R.drawable.penyu,
             R.drawable.pauss,
-            R.drawable.parimanta
+            R.drawable.parimanta,
+            R.drawable.penguin,
+            R.drawable.gurita,
+            R.drawable.ikankarang,
+            R.drawable.hiu
         )
 
         titleList = arrayOf(
@@ -40,7 +44,11 @@ class MainActivity : AppCompatActivity() {
             "Tentang Paus",
             "Tentang Penyu",
             "Tentang Hiu Paus",
-            "Tentang Pari manta"
+            "Tentang Pari manta",
+            "Tentang Penguin",
+            "Tentang Gurita",
+            "Tentang Ikan Karang",
+            "Tentang Hiu"
         )
 
         descList = arrayOf(
@@ -57,7 +65,11 @@ class MainActivity : AppCompatActivity() {
             R.drawable.pausframe,
             R.drawable.penyuframe,
             R.drawable.hiupausframe,
-            R.drawable.parimantaframe
+            R.drawable.parimantaframe,
+            R.drawable.penguinframe,
+            R.drawable.guritaframe,
+            R.drawable.karangframe,
+            R.drawable.hiuframe
         )
 
         recyclerView = findViewById(R.id.recyclerView)

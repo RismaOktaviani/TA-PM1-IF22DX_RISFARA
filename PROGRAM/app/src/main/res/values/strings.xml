@@ -32,4 +32,23 @@
         promosi pariwisata berkelanjutan yang mengedepankan observasi alam daripada interaksi langsung dengan satwa liar, serta edukasi kepada masyarakat lokal tentang pentingnya menjaga populasi mamalia laut ini untuk keseimbangan ekosistem laut yang utuh.
     </string>
 
+    <string name="Penguin">
+    Paus adalah mamalia laut besar yang mencakup paus bergigi (Odontoceti) dan paus balin (Mysticeti). Sejarah perburuan komersial telah menyebabkan beberapa spesies paus mendekati kepunahan, meskipun sebagian besar dari mereka sekarang dilindungi di bawah perjanjian internasional. Ancaman lain termasuk penangkapan tidak sengaja dalam alat tangkap ikan, polusi suara dari aktivitas manusia seperti eksplorasi minyak dan gas, serta kerusakan habitat laut akibat perubahan iklim dan pencemaran. Upaya konservasi yang diperlukan mencakup pengembangan kawasan lindung laut yang meliputi migrasi dan habitat paus, pengawasan ketat terhadap perburuan dan perdagangan produk paus, serta pendidikan masyarakat tentang pentingnya pelestarian keanekaragaman hayati laut dan pengurangan dampak aktivitas manusia terhadap lingkungan laut.
+    </string>
+
+    <string name="Gurita">
+        Ikan hiu paus (Rhincodon typus) adalah salah satu dari sedikit spesies hiu yang merupakan pemakan plankton, dengan ukuran tubuh yang besar dan tersebar di perairan tropis dan subtropis di seluruh dunia.
+        Ancaman terbesar bagi ikan hiu paus berasal dari perburuan komersial untuk siripnya yang memiliki nilai ekonomis tinggi di pasar internasional. Meskipun perlindungan internasional telah diberlakukan, perburuan ilegal masih terjadi, terutama di perairan yang sulit diawasi. Selain itu, perubahan iklim dan polusi laut juga mempengaruhi sumber makanan utama ikan hiu paus, yaitu plankton. Upaya konservasi yang penting meliputi pelaksanaan larangan internasional terhadap perburuan hiu paus, peningkatan patroli dan penegakan hukum untuk mengurangi perburuan ilegal, promosi pariwisata berkelanjutan yang mengedepankan observasi hiu paus, serta penelitian untuk memahami lebih baik perilaku migrasi dan ekologi ikan hiu paus.
+    </string>
+
+    <string name="IkanKarang">
+        Ikan pari manta (Manta spp.) adalah pari besar yang dikenal dengan sirip dada yang lebar dan pola spot khas di tubuhnya. Mereka adalah pemakan plankton dan tersebar luas di perairan tropis dan subtropis di seluruh dunia. Ancaman terhadap ikan pari manta termasuk perburuan untuk insangnya yang digunakan dalam obat tradisional di beberapa budaya, meskipun perlindungan internasional telah diberlakukan. Selain itu, penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya juga merupakan ancaman serius. Upaya konservasi yang diperlukan mencakup penegakan larangan perdagangan internasional insang manta, pengembangan kawasan lindung laut yang melindungi habitat manta, pengurangan pencemaran laut dan penangkapan ikan secara tidak sengaja, serta
+        kampanye edukasi untuk mengubah perilaku konsumen terhadap produk-produk yang berasal dari spesies ini.
+    </string>
+
+    <string name="Hiu">
+        Lumba-lumba adalah mamalia laut cerdas yang sering ditemukan dalam kelompok sosial yang terstruktur di berbagai perairan hangat dan dingin di seluruh dunia. Ancaman terhadap lumba-lumba termasuk penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya, serta perburuan langsung untuk daging atau untuk tujuan komersial lainnya seperti atraksi wisata. Penangkapan ini sering kali tidak hanya mengancam individu yang tertangkap tetapi juga populasi lumba-lumba secara keseluruhan. Upaya konservasi yang dapat dilakukan meliputi pendirian kawasan lindung laut yang melindungi habitat penting lumba-lumba, pengawasan ketat terhadap praktek tangkapan ikan yang merugikan mamalia laut,
+        promosi pariwisata berkelanjutan yang mengedepankan observasi alam daripada interaksi langsung dengan satwa liar, serta edukasi kepada masyarakat lokal tentang pentingnya menjaga populasi mamalia laut ini untuk keseimbangan ekosistem laut yang utuh.
+    </string>
+
 </resources>

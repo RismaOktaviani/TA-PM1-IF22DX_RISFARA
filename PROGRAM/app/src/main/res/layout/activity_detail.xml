@@ -12,8 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/detailTitle"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="30dp"
         android:text="Dugong"
+        android:textStyle="bold"
         android:textColor="@color/Base"
         android:textSize="28sp"
         android:layout_marginStart="16dp"
@@ -21,6 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
@@ -41,7 +43,7 @@
         android:text="@string/Dugong"
         android:textColor="@color/black"
         android:textAlignment="viewStart"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:padding="12dp"
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"

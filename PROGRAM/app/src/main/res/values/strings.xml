@@ -1,11 +1,15 @@
 <resources>
     <string name="SeaCare">Seacare</string>
 
-    <string name="Dugong">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
-        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
-        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
-        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
-        with text in the Layouts guide.</string>
+    <string name="Dugong">
+        Dugong (Dugong dugon) adalah mamalia laut langka yang hidup di perairan tropis seperti Indo Pasifik,
+        Afrika Timur, hingga Kepulauan Solomon. Nama "dugong" berasal dari bahasa Tagalog yang diserap dari bahasa Melayu "duyung" atau "duyong" yang berarti "perempuan laut".
+        Dugong memiliki panjang 2,4 – 3 meter dan berat 230 – 930 kg. Terlahir dengan warna krem pucat, warna tubuhnya berubah menjadi lebih gelap seiring bertambah usia. Tubuhnya ditutupi rambut pendek dan memiliki kulit tebal serta keras dengan permukaan halus.
+        Dugong memiliki sirip dada panjang 35-45 cm yang berfungsi sebagai kemudi pada dugong dewasa dan sebagai pendorong pada dugong muda. Ekornya berbentuk homo cercal yang berfungsi sebagai pendorong. Dugong dapat hidup selama 40-70 tahun. Sebagai hewan herbivora, dugong menghabiskan waktunya makan di padang lamun. Dugong dapat menjadi bioindikator kondisi padang lamun karena mereka hanya tinggal di wilayah dengan padang lamun yang sehat. Selain itu, dugong berperan dalam menyeimbangkan ekosistem laut dan mampu menahan napas di dalam air hingga 12 menit saat mencari makan dan berenang. Dugong tersebar di sepanjang cekungan Samudra Hindia dan Pasifik, termasuk di beberapa wilayah Indonesia seperti Papua, Sulawesi, Sumatera, Timor Timur, Maluku, Jawa, dan Kalimantan. Salah satu habitat dugong adalah Kampung Sawatut, Distrik Makbon, Sorong, Papua Barat.
+        Dugong, mamalia laut yang menggemaskan ini, sayangnya terancam punah karena berbagai faktor. Habitat utama mereka, padang lamun luas di perairan dangkal, terus menerus mengalami degradasi.
+        Aktivitas manusia seperti pembangunan di pesisir, pencemaran laut dengan berbagai limbah, dan penambangan pasir menjadi penyebab utama kerusakan lamun. Hilangnya lamun ini ibarat kehilangan sumber makanan pokok bagi dugong. Selain itu, perburuan liar untuk diambil daging, kulit, dan tulangnya masih terjadi di beberapa wilayah, mengancam populasi dugong secara langsung.
+        Bahaya juga mengintai dugong dari alat tangkap ikan. Mereka kerap tidak sengaja terjerat jaring insang atau jaring trawl yang dipasang nelayan. Parahnya, terjerat jaring ini bisa menyebabkan dugong terluka parah atau bahkan mati. Kawasan perairan dangkal yang menjadi habitat dugong juga ramai dengan lalu lintas kapal. Tabrakan dengan kapal menjadi salah satu penyebab kematian utama dugong. Tak ketinggalan, pencemaran laut oleh bahan kimia, plastik, dan sampah lainnya turut menambah ancaman bagi dugong. Racun dari polutan tersebut dapat mengganggu kesehatan dugong dan berakibat fatal.
+    </string>
 
     <string name="Penyu">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
         Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the

@@ -6,62 +6,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/btn_info"
-            android:layout_width="414dp"
-            android:layout_height="84dp"
-            android:layout_marginTop="4dp"
-            android:backgroundTint="@color/title_color"
-            android:fontFamily="@font/poppins_extrabold"
-            android:text="Informasi Laut di Indonesia"
-            android:textAlignment="textEnd"
-            android:textSize="21dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="SeaCare"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
-        <ImageButton
-            android:id="@+id/img_btn"
-            android:layout_width="55dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="24dp"
-            android:background="#00FFFFFF"
-            android:scaleType="fitStart"
-            android:src="@drawable/water_icon"
-            app:layout_constraintBottom_toBottomOf="@+id/btn_info"
-            app:layout_constraintStart_toStartOf="@+id/btn_info"
-            app:layout_constraintTop_toTopOf="@+id/btn_info" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="424dp"
-            android:layout_height="295dp"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/laut_indonesia"
-            app:circularflow_radiusInDP="5dp"
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-        <TextView
-            android:id="@+id/textView"
-            style="@style/TitleFragment"
-            android:layout_width="425dp"
-            android:layout_height="83dp"
-            android:text="@string/head_title_home"
-            android:textSize="34sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/laut_indonesia"
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+        </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- TODO: Update blank fragment layout -->
+
 
 </FrameLayout>

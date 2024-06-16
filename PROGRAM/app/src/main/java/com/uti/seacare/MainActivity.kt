@@ -109,9 +109,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 return false
             }
-
         })
-
         myAdapter = AdapterClass(searchList)
         recyclerView.adapter = myAdapter
 

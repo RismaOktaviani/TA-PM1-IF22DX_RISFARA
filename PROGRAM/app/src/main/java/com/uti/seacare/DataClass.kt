@@ -3,7 +3,8 @@ package com.uti.seacare
 import android.os.Parcel
 import android.os.Parcelable
 
-data class DataClass(var dataImage:Int, var dataTitle:String, var dataDesc: String, var dataDetailImage: Int): Parcelable {
+data class DataClass(var dataImage:Int, var dataTitle:String, var dataDesc: String,
+                     var dataDetailImage: Int): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
         parcel.readString()!!,

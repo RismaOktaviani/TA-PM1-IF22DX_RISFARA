@@ -57,7 +57,11 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.Paus),
             getString(R.string.Penyu),
             getString(R.string.HiuPaus),
-            getString(R.string.PariManta))
+            getString(R.string.PariManta),
+            getString(R.string.Penguin),
+            getString(R.string.Gurita),
+            getString(R.string.IkanKarang),
+            getString(R.string.Hiu))
 
         detailImageList = arrayOf(
             R.drawable.dugongframe,

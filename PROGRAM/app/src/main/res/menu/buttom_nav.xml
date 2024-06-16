@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/house_solid">
+        </item>
+
+        <item
+            android:title="Spesies"
+            android:id="@+id/spesies"
+            android:icon="@drawable/fish_solid">
+        </item>
+        <item
+            android:title="Info"
+            android:id="@+id/info"
+            android:icon="@drawable/circle_info_solid">
+        </item>
+</menu>

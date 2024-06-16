@@ -21,11 +21,32 @@
             app:layout_constraintTop_toBottomOf="@+id/text_info">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageinfo2"
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/laut_indonesia" />
+                android:src="@drawable/laut2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/isi_info"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/art_SeaInfo">
+
+            <TextView
+
+                android:id="@+id/text_informasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="@string/informasi_laut">
+            </TextView>
+
         </FrameLayout>
 
         <TextView

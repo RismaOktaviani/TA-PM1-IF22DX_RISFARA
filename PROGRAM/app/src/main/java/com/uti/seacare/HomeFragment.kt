@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.uti.seacare.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
@@ -21,7 +22,11 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding.buttonNext.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_layout, BtnFragment()).commit()
+        }
+        return binding.root
     }
 
     companion object {

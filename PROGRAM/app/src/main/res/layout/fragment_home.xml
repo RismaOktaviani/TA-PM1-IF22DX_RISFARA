@@ -44,22 +44,53 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/card_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="16dp"
-                    android:layout_margin="10dp">
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="16dp">
 
                     <ImageView
                         android:id="@+id/img_card"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/laut_indonesia"
+                        android:src="@drawable/laut_indonesia" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_gravity="bottom"
+                        android:background="@color/title_color"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/text_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="contdesc"
+                            android:text="Informasi Laut di Indonesia"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:contentDescription="contdesc"
+                            android:text="Rabu, 3 maret 2024"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="italic"/>
+                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
+
 
             </ScrollView>
 

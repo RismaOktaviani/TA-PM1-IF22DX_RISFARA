@@ -1,47 +1,40 @@
 <resources>
     <string name="SeaCare">Seacare</string>
 
-    //dugong
-    <string name="Dugongdetail">
-    \nDugong merupakan hewan herbivora dan menghabiskan waktu untuk makan di padang lamun. Mengingat spesies ini hanya tinggal di wilayah padang lamun yang berkondisi baik, dugong juga dapat dijadikan sebagai bio indikator kondisi padang lamun. Mungkin hal ini bisa menjadi keistimewaan tersendiri yang dimiliki seekor dugong.
-    Selain menjadi penyeimbang ekosistem laut, dugong juga mampu menahan napas di dalam air sampai 12 menit, sambil mencari makan dan berenang.Spesies yang dapat ditemukan di sepanjang cekungan Samudra Hindia dan Pasifik ini juga tersebar di beberapa wilayah Indonesia seperti Papua, Sulawesi Utara, Sulawesi Selatan, Sulawesi Tengah, Sumatera, Timor Timur, Maluku, barat laut dan tenggara Jawa, pantai selatan Jawa Timur dan pantai selatan Kalimantan. Kampung Sawatut, Distrik Makbon, Sorong, Papua Barat merupakan salah satu daerah yang dihidupi oleh dugong.
-    </string>
+    <string name="Dugong">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
 
-    <string name="Dugongdesc">
-        \nPopulasi dugong kini semakin menurun. Hal ini disebabkan oleh beberapa faktor, antara lain keterbatasan bahan informasi mengenai populasi dugong, perburuan dan pemanfaatan ilegal, terjaring secara tidak sengaja (bycacth), dan tertabrak kapal wisata atau nelayan. Selain itu terdapat penyebab lainnya, yaitu penurunan luas area padang lamun karena alih fungsi lahan yang tidak tepat, penurunan kualitas air laut, dan praktik penangkapan ikan yang merusak. Dugong yang menyandang status rawan punah dan dengan populasinya yang terus menurun,
-        maka diperlukan upaya untuk mengkonservasi hewan ini.</string>
+    <string name="Penyu">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
 
-    <string name="UpayaDugong">
-        \nSalah satu upaya konservasi dugong di Indonesia yaitu dengan diadakannya program Dugong and Seagrass Conservation Project (DSCP) yang dimulai tahun 2016. DSCP merupakan program regional yang dilaksanakan di tujuh negara, yaitu Indonesia, Malaysia, Sri Lanka, Mosambik, Madagaskar, Timor Leste, dan Vanuatu. Program ini merupakan kerjasama antara United Nation Environment Programme-Conservation Migratory Species (UNEP-CMS), Mohamed bin Zayed Species Conservation Fund (MbZ) bersama Kementerian Kelautan dan Perikanan, LIPI, WWF Indonesia, dan IPB. DSCP Indonesia merupakan program berbasis masyarakat lokal dengan jangkauan global untuk meningkatkan efektivitas konservasi dugong dan ekosistem lamun. Terdapat tiga program kegiatan DSCP Indonesia, yaitu program ID1, program ID2, dan program ID3. Program ID1 adalah  rencana aksi konservasi nasional dugong dan habitatnya, yaitu padang lamun. Program ID2 adalah meningkatkan kesadartahuan dan penelitian di tingkat nasional tentang dugong dan lamun. Program ID3 adalah pengelolaan dan konservasi dugong dan lamun berbasis masyarakat di Bintan, Kotawaringin Barat, Tolitoli, dan Alor. </string>
+    <string name="Paus">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
 
-    //Paus
-    <string name="pausdetail">Paus</string>
-    \nIkan Dugong
-    \nadalah inniininiinin
-    <string name="pausgdesc">dugong adalah jenis ikan</string>
+    <string name="HiuPaus">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
 
-    //Ikan Hiu Paus
-    <string name="Hiugdetail">Hiu</string>
-    \nIkan Hitu
-    \nadalah inniininiinin
-    <string name="Hiudesc">dugong adalah jenis ikan</string>
+    <string name="PariManta">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
 
-    //Lumba Lumba
-    <string name="Lumbadetail">Lumba Lumba</string>
-    \nIkan Dugong
-    \nadalah inniininiinin
-    <string name="Lumbadesc">dugong adalah jenis ikan</string>
-
-    //Ikan pari manta
-    <string name="parimantadetail">parimanta</string>
-    \nIkan Dugong
-    \nadalah inniininiinin
-    <string name="parimantadesc">dugong adalah jenis ikan</string>
-
-    //penyu
-    <string name="penyudetail">Penyu</string>
-    \nIkan Dugong
-    \nadalah inniininiinin
-    <string name="penyudesc">dugong adalah jenis ikan</string>
-
-</resources>
+    <string name="Lumba">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
+    
+    </resources>

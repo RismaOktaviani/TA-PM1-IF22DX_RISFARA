@@ -123,7 +123,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar, termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
+                            android:text="Laut adalah sumber daya alam yang sangat penting bagi kehidupan manusia. Laut menyediakan berbagai macam manfaat, seperti makanan, sumber mata pencaharian, obat-obatan, dan oksigen. Namun, laut saat ini sedang menghadapi berbagai ancaman, seperti pencemaran, penangkapan ikan berlebihan, dan perubahan iklim. "
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -156,7 +156,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Informasi penyebab kerusakan pada laut"
+                            android:text="Informasi Penyebab Kerusakan Pada Laut"
                             android:textSize="16sp"
                             android:paddingRight="10dp"
                             android:textStyle="bold" />
@@ -167,8 +167,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text=" Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim.
-                            Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
+                            android:text=" Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim. Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -201,7 +200,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Potensi Sumber Daya Kelautan Indonesia"
+                            android:text="Informasi Menjaga Laut"
                             android:textSize="16sp"
                             android:paddingRight="10dp"
                             android:textStyle="bold" />

@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/laut_indonesia" />
+                android:src="@drawable/laut_indo" />
         </FrameLayout>
 
         <FrameLayout
@@ -63,7 +63,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet mollitia, porro laboriosam soluta repellat sed nulla voluptate quibusdam consequatur reprehenderit temporibus ratione distinctio, vel ex, illum libero. Cum, asperiores blanditiis voluptate incidunt tempora tenetur praesentium? Voluptatum, possimus ratione magni maxime et dolor, assumenda alias nam illum dolore fugit nesciunt tenetur! Nihil, animi error, blanditiis quo dolore nisi facere iusto repellendus ipsam officiis quod laborum ut reprehenderit! Recusandae, non atque tempore, voluptatibus quis minima aut obcaecati molestias nihil libero neque accusantium? Exercitationem, amet! Aperiam accusamus aliquid eaque in dignissimos voluptates, eos magnam praesentium facere laborum. Ipsum quos laborum rerum autem omnis sed soluta, quo consectetur nihil cupiditate dignissimos quod facere deleniti neque minima quas modi eius saepe exercitationem alias sit nam expedita at tenetur. Beatae porro non atque sint omnis dolor, perspiciatis id debitis. Voluptates, esse voluptas? Quidem ab voluptatibus id fugiat eum iure labore hic, consectetur accusantium, vero nesciunt perspiciatis. Explicabo aliquam nulla quaerat? Fuga veritatis saepe vel. Aperiam fugit quaerat veritatis, quia magni impedit! Nihil et quibusdam a assumenda amet mollitia consequuntur, praesentium vel iste voluptates accusantium magnam illum facilis maiores recusandae fugiat saepe eum, sunt unde dolores quis temporibus? Illum sapiente natus reiciendis architecto eveniet ratione cum quam." />
+                android:text="Indonesia merupakan negara kepulauan terbesar di dunia dengan garis pantai sepanjang 90.972 km. Luas laut Indonesia mencapai 3.257.357 km2, jauh lebih luas dibandingkan daratannya yang hanya 1.904.569 km2. Hal ini menjadikan Indonesia sebagai negara maritim dengan potensi kelautan yang sangat besar."
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_extrabold"
+                android:textSize="15dp" />
         </FrameLayout>
 
         <FrameLayout
@@ -71,7 +74,9 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
+            android:layout_marginTop="44dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/frm_text">
 

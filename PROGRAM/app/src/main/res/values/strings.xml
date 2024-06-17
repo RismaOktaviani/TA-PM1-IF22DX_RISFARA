@@ -4,7 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="head_title_home">SeaCare</string>
     <string name="informasi_text">1. Laut di Indonesia</string>
-    <string name="informasi_text2">Menurut Kementerian Kelautan dan Perikanan, terdapat 12 laut di Indonesia, yaitu: Laut Jawa, Laut Natuna Utara, Laut Sulawesi, Laut Maluku, Laut Banda, Laut Arafura, Laut Flores, Laut Sawu, Laut Timor, Laut Seram, Laut Halmahera, Laut China Selatan</string>
+    <string name="informasi_text2">Menurut Kementerian Kelautan dan Perikanan, terdapat beberapa laut di Indonesia, yaitu: Laut Jawa, Laut Natuna Utara, Laut Sulawesi, Laut Maluku, Laut Banda, Laut Arafura, Laut Flores, Laut Sawu, Laut Timor, Laut Seram, Laut Halmahera.</string>
     <string name="informasi_text3">2. Luas Laut</string>
     <string name="informasi_text3a">Laut terluas di Indonesia adalah Laut Cina Selatan dengan luas mencapai 1.652.000 km2. Disusul oleh Laut Arafura (1.033.000 km2) dan Laut Maluku (975.000 km2).</string>
     <string name="informasi_text4">3. Kedalaman Laut</string>
@@ -15,4 +15,7 @@
     <string name="informasi_text6a">Laut di Indonesia memiliki potensi ekonomi yang sangat besar. Sektor kelautan dan perikanan merupakan salah satu sektor penyumbang Produk Domestik Bruto (PDB) terbesar di Indonesia. Selain itu, laut juga menjadi sumber daya alam yang penting untuk berbagai sektor, seperti pariwisata, industri, dan energi.</string>
     <string name="informasi_text7">6. Tantangan</string>
     <string name="informasi_text7a">Meskipun memiliki potensi besar, laut di Indonesia juga menghadapi berbagai tantangan, seperti pencemaran laut, penangkapan ikan berlebihan, dan kerusakan terumbu karang. Untuk itu, diperlukan upaya pengelolaan laut yang berkelanjutan agar laut Indonesia dapat terus memberikan manfaat bagi generasi sekarang dan mendatang.</string>
+    <string name="informasi_text8">7. Upaya Pelestarian Laut</string>
+    <string name="informasi_text8a">Laut Indonesia kaya akan biota laut dan penting bagi masyarakat, namun terancam oleh penangkapan ikan berlebihan, polusi dan perubahan iklim.  Upaya pelestariannya meliputi:
+        Penegakan hukum terhadap pelanggaran laut, Edukasi masyarakat dan melibatkan mereka dalam pelestarian, Mengembangkan ekonomi biru yang ramah lingkungan, Penelitian dan pengembangan untuk solusi pelestarian, Kerjasama internasional untuk mengatasi masalah lintas batas.</string>
 </resources>

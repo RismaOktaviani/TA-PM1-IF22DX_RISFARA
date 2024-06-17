@@ -52,8 +52,8 @@
 
         <FrameLayout
             android:id="@+id/frm_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="405dp"
+            android:layout_height="171dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/frame_imgheadline">
@@ -63,9 +63,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
+                android:fontFamily="@font/poppins_extrabold"
                 android:text="Indonesia merupakan negara kepulauan terbesar di dunia dengan garis pantai sepanjang 90.972 km. Luas laut Indonesia mencapai 3.257.357 km2, jauh lebih luas dibandingkan daratannya yang hanya 1.904.569 km2. Hal ini menjadikan Indonesia sebagai negara maritim dengan potensi kelautan yang sangat besar."
                 android:textAlignment="center"
-                android:fontFamily="@font/poppins_extrabold"
                 android:textSize="15dp" />
         </FrameLayout>
 

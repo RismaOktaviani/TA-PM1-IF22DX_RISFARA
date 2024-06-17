@@ -1,4 +1,4 @@
-gi<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -168,7 +168,7 @@ gi<?xml version="1.0" encoding="utf-8"?>
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
                             android:text=" Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim.
-                            Dampak: Hilangnya biota laut, air laut tercemar, bencana alam, & dampak sosial ekonomi."
+                            Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>

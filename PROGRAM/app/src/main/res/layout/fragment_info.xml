@@ -244,7 +244,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Potensi Sumber Daya Kelautan Indonesia"
+                            android:text="Informasi Dampak Menjaga Laut"
                             android:textSize="16sp"
                             android:paddingRight="10dp"
                             android:textStyle="bold" />
@@ -255,7 +255,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar, termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
+                            android:text="Hilangnya keanekaragaman hayati laut,Gangguan keseimbangan ekosistem laut,Bencana alam seperti abrasi pantai dan banjir rob,Kerugian ekonomi bagi masyarakat pesisir"
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>

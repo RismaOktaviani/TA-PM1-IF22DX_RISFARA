@@ -123,7 +123,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text="Laut adalah sumber daya alam yang sangat penting bagi kehidupan manusia. Laut menyediakan berbagai macam manfaat, seperti makanan, sumber mata pencaharian, obat-obatan, dan oksigen. Namun, laut saat ini sedang menghadapi berbagai ancaman, seperti pencemaran, penangkapan ikan berlebihan, dan perubahan iklim. "
+                            android:text="Laut adalah sumber daya alam yang sangat penting bagi kehidupan manusia. Laut menyediakan berbagai macam manfaat, seperti makanan, sumber mata pencaharian, obat-obatan, dan oksigen."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -167,7 +167,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text=" Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim. Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
+                            android:text="Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim. Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -211,7 +211,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar, termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
+                            android:text="Laut bagaikan paru-paru bumi, menopang kehidupan dan keseimbangan alam. Namun, kini kesehatannya terancam oleh berbagai aktivitas manusia.Pencemaran: Sampah plastik, limbah industri."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>

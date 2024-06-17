@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:text="SeaCare"
+        android:fontFamily="@font/poppins_extrabold"
         android:textSize="25dp"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -86,6 +87,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/title_color"
                 android:layout_gravity="end|center"
+                android:fontFamily="@font/poppins_extrabold"
                 android:text="Selengkapnya ->" />
         </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

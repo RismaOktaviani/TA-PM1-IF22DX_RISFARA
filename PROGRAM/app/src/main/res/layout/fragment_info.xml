@@ -255,7 +255,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingRight="10dp"
-                            android:text="Hilangnya keanekaragaman hayati laut,Gangguan keseimbangan ekosistem laut,Bencana alam seperti abrasi pantai dan banjir rob,Kerugian ekonomi bagi masyarakat pesisir."
+                            android:text="Hilangnya Keanekaragaman hayati laut,Gangguan keseimbangan ekosistem laut,Bencana alam seperti abrasi pantai dan banjir rob,Kerugian ekonomi bagi masyarakat pesisir."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>

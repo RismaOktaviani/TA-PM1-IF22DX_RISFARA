@@ -79,7 +79,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:paddingRight="10dp"
-                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar, termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
+                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar,
+                            termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
